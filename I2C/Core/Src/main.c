@@ -32,6 +32,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+//control byte format
 #define EEPROM_ADDR 0b10100000
 #define IOEXPD_ADDR 0b01000000
 /* USER CODE END PD */
@@ -51,6 +52,7 @@ uint8_t eepromExampleWriteFlag = 0;
 uint8_t eepromExampleReadFlag = 0;
 uint8_t IOExpdrExampleWriteFlag = 0;
 uint8_t IOExpdrExampleReadFlag = 0;
+
 uint8_t eepromDataReadBack[4];
 uint8_t IOExpdrDataReadBack;
 uint8_t IOExpdrDataWrite = 0b01010101;
